@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.venv/
+env/
+venv/
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs & cache
+*.log
+.cache/
+.events.json
+
+# Training outputs
+runs/
+outputs/
+results/
+*.pt.tmp
+
+# Datasets (large, not for repo)
+datasets/
+data/
+!data.yaml   # allow config
+
+# Videos (too large, keep them local)
+*.mp4
+*.avi
+*.mov

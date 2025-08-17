@@ -1,0 +1,21 @@
+train: datasets/etri_raw/train/images
+val: datasets/etri_raw/val/images
+
+nc: 14
+names:
+  [
+    green_straight,
+    green_left,
+    red,
+    red_left,
+    green_arrow,
+    yellow,
+    yellow_left,
+    countdown_display,
+    off_signal,
+    red_pedestrian,
+    green_pedestrian,
+    blue_straight,
+    red_alt,
+    pedestrian_warning
+  ]
