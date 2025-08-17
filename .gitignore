@@ -35,3 +35,7 @@ data/
 *.mp4
 *.avi
 *.mov
+
+# Auto-generated config files (not tracked by git)
+tools/config.json
+tools/gui_config.json
