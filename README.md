@@ -7,6 +7,8 @@ PyQt5 GUI를 통해 ROI, 민감도, 임계값 등을 조절하면서 실시간 �
 ---
 
 ## 📂 프로젝트 구조
+
+```
 trafficlight-lite/
 │
 ├─ tools/
@@ -20,13 +22,13 @@ trafficlight-lite/
 │ ├─ split_train_val.py # 학습/검증 분할
 │ ├─ auto_convert_to_coco.py # COCO 포맷 변환
 │ └─ run_video_gui.bat # Windows 실행 배치 파일
-├─ test.mp4
+│
 ├─ best.pt # 학습된 가중치
 ├─ data.yaml # 클래스 정의
 ├─ requirements.txt # 필요 패키지
 ├─ .gitignore
 └─ README.md
-
+```
 ---
 
 ## ⚙️ 설치 방법
